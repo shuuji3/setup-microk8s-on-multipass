@@ -1,0 +1,7 @@
+snap:
+  commands:
+    - snap install microk8s --classic
+
+users:
+  - name: multipass
+    groups: microk8s
