@@ -1,6 +1,6 @@
 # setup-microk8s-on-multipass
 
-Bootstrap [Microk8s](https://microk8s.io/) cluster on [multipass](https://multipass.run/) Vms.
+Bootstrap [Microk8s](https://microk8s.io/) cluster on [multipass](https://multipass.run/) VMs.
 
 ## How to bootstrap
 
@@ -23,7 +23,7 @@ Bootstrap [Microk8s](https://microk8s.io/) cluster on [multipass](https://multip
     done
     ```
 
-1. Issues join tokenon the master node by `microk8s.add-node` command.
+1. Issues join token on the master node by `microk8s.add-node` command.
 
     ```bash
     multipass@microk8s-master:~$ microk8s.add-node
